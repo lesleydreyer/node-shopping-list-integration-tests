@@ -1,2 +1,10 @@
 language: node_js
 node_js: node
+deploy: evening-forest-88390
+  provider: heroku
+  api_key:
+    secure: u6l/ndp4gGVxc9FLgOwKba9wd43u6G98yDORwVbnU7h2Fk/5YDGo8v//vGF/99/rVjP1QmvQthWMLen1OSkUR9yJXfgOvhiDQDQv6BmDrByHJCJ4h7JHMAncWmxkBYXHLZC+Y3FVsnrdOdk1YniiACJOQ2lQAS3C5N7hIBI99nOBGnWJdIRhyGadA/bSTJs84vkCdlQSZyhk/5RES6nkuiWAtUDMt0DF/aymGxPDsz4zy7Ewh+4qAwmBCilxuzmVbzMf6Tob1c/WKSX8CK4yoQULNylbsEr5Qfe+Zgtz5UTCpnl1tVCofsRAnlH8tzrQPFD44qu23Mh84enLxQOKWicpgzKCbT+4/u5vsz1UfDlzckF1hIL69ZPqH123zji56c8cHG7O5l0yXIt2WhlFZQOHr2FMikWvx2Mr0MDcGcBRGAJ20wmpool1kHKhcLiDbigT8Uktjy0encIuP2/fIOfTNZ26a4KCnbPbXOrPRizhuDWri8zcRr7HjE1AqOijui32XZmhT4kqfZaJEQDc4aPHpbjzrFVKiZv0Ug7rAB5u6MA7B7js9pUFbYDDRjcIDFCI4KF9uoMayfJPE+inLmUvn3A7YarVYhJkIWp2tkeF1TZo+l+NimUtGFWnAP7yBzTbkRqSA+0rJ3LYcS8Ijt585F3QqfXP6lLHsI/Pwuc=
+  app: node-shopping-list-integration-tests
+  on:
+    repo: lesleydreyer/node-shopping-list-integration-tests
+    branch: tests-for-recipes
